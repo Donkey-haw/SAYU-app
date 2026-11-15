@@ -5,6 +5,15 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.0</title>
+      <pubDate>Sun, 15 Nov 2026 12:25:34 +0000</pubDate>
+      <sparkle:version>1200</sparkle:version>
+      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <link>https://donkey-haw.github.io/SAYU-app/download.html</link>
+      <sparkle:informationalUpdate/>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p>새 SAYU가 나왔습니다. 이 버전은 앱 안에서 바로 바꿀 수 없어 한 번만 사이트에서 내려받아 주세요. 수업 기록은 새 SAYU를 처음 열 때 그대로 가져옵니다(이전 SAYU를 먼저 종료).</p><p>새 SAYU에서는 손쉬운 사용·Numbers 제어 권한을 한 번 다시 허용합니다. 그다음부터는 앱 안에서 업데이트됩니다.</p>]]></description>
+    </item>
+    <item>
       <title>SAYU 0.11.4</title>
       <pubDate>Sun, 15 Nov 2026 12:08:20 +0000</pubDate>
       <sparkle:version>1104</sparkle:version>
