@@ -28,7 +28,7 @@ document.querySelectorAll('[data-version]').forEach((el) => {
 });
 
 // The hero's one authored moment: the AI's work steps advance in place, the
-// way the app shows them, and the board columns fill in when they finish.
+// way the app shows them.
 const win = document.querySelector('.window[data-play]');
 if (win) {
   const trace = win.querySelector('.trace');
@@ -50,7 +50,7 @@ if (win) {
     const step = () => {
       items.forEach((li, n) => { li.classList.toggle('ok', n < i); li.classList.toggle('now', n === i); });
       if (i < items.length) { head.textContent = `${items[i].dataset.label} 중…`; i += 1; setTimeout(step, 1100); }
-      else { clearInterval(tick); finish(); win.classList.add('playing'); }
+      else { clearInterval(tick); finish(); }
     };
     const start = () => {
       tick = setInterval(() => { seconds += 1; clock.textContent = `0:${String(Math.min(seconds, 59)).padStart(2, '0')}`; }, 120);

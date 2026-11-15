@@ -34,6 +34,11 @@ ICONS = {
     'paperclip': '<path d="M14.5 9.5 9 15a3.5 3.5 0 0 1-5-5l6-6a2.3 2.3 0 0 1 3.3 3.3l-6 6a1.1 1.1 0 0 1-1.6-1.6L11 6.5"/>',
     'up': '<path d="M10 16V4M5.5 8.5 10 4l4.5 4.5"/>',
     'folder': '<path d="M2.5 5.5A1.5 1.5 0 0 1 4 4h4.2l1.8 2H16a1.5 1.5 0 0 1 1.5 1.5V15a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 15z"/><path d="M2.5 8.5h15"/>',
+    'bulb': '<path d="M7.2 13.2c0-1.4-2.2-2.6-2.2-5.4a5 5 0 0 1 10 0c0 2.8-2.2 4-2.2 5.4"/><path d="M7.6 15.5h4.8M8.4 17.8h3.2"/>',
+    'board': '<rect x="2.5" y="3.5" width="15" height="13" rx="1.6"/><path d="M2.5 7h15M6.25 7v9.5M10 7v9.5M13.75 7v9.5"/>',
+    'sliders': '<path d="M3.5 6h7M14.5 6h2M3.5 14h2M9.5 14h7"/><circle cx="12.5" cy="6" r="2"/><circle cx="7.5" cy="14" r="2"/>',
+    'check': '<circle cx="10" cy="10" r="7.5"/><path d="m6.8 10.2 2.2 2.2 4.2-4.4"/>',
+    'arrow': '<path d="M4 10h12M11.5 5.5 16 10l-4.5 4.5"/>',
     'book': '<path d="M10 5.5c-1.6-1.3-3.8-2-6.5-2v11c2.7 0 4.9.7 6.5 2 1.6-1.3 3.8-2 6.5-2v-11c-2.7 0-4.9.7-6.5 2z"/><path d="M10 5.5v11"/>',
 }
 
@@ -43,7 +48,9 @@ def icon(name, size=20, cls='icon'):
             f'stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{ICONS[name]}</svg>')
 
 
-NAV = [('index', './', '소개'), ('guide', 'guide.html', '도움말'), ('pilot', 'pilot.html', '파일럿'), ('changelog', 'changelog.html', '업데이트')]
+# Section links of the intro page, then the reading pages.
+SECTIONS = [('features', '주요 기능'), ('flow', '이용 과정'), ('examples', '활용 예시'), ('faq', '자주 묻는 질문')]
+PAGES = [('guide', 'guide.html', '도움말'), ('pilot', 'pilot.html', '파일럿')]
 
 LAYOUT = '''<!doctype html>
 <html lang="ko">
@@ -72,8 +79,9 @@ LAYOUT = '''<!doctype html>
 <header class="nav" id="nav">
   <div class="nav-in">
     <a class="brand" href="./" aria-label="SAYU 처음으로"><img src="assets/img/sayu-mark.svg" alt="" width="26" height="22">SAYU</a>
-    <nav class="nav-links" aria-label="사이트">{links}</nav>
-    <a class="btn btn-small" href="download.html">내려받기</a>
+    <nav class="nav-links" aria-label="소개 페이지 구역">{sections}</nav>
+    <nav class="nav-pages" aria-label="사이트">{pages}</nav>
+    <a class="btn btn-small" href="download.html">{download}무료로 내려받기</a>
   </div>
 </header>
 <main id="main">
@@ -82,7 +90,7 @@ LAYOUT = '''<!doctype html>
 <footer class="foot">
   <div class="foot-in">
     <div class="foot-brand"><a class="brand" href="./"><img src="assets/img/sayu-mark.svg" alt="" width="22" height="19">SAYU</a>
-      <p>선생님의 생각에서 시작하는 수업 설계. 교사 파일럿 체험판.</p></div>
+      <p>선생님의 생각과 AI가 만나 그리는 수업. 교사 파일럿 체험판.</p></div>
     <nav class="foot-cols" aria-label="바닥글">
       <div><h2>SAYU</h2><a href="./">소개</a><a href="download.html">내려받기</a><a href="changelog.html">업데이트 기록</a></div>
       <div><h2>도움</h2><a href="guide.html">도움말</a><a href="pilot.html">파일럿 참여</a><a href="mailto:{email}">문의하기</a></div>
@@ -115,9 +123,12 @@ def build():
         body = text[header.end():]
         body = re.sub(r'\{\{icon:(\w+)(?::(\d+))?\}\}', lambda m: icon(m.group(1), int(m.group(2) or 20)), body)
         body = body.replace('{{email}}', EMAIL)
-        links = ''.join(f'<a href="{href}"{" aria-current=\"page\"" if key == meta.get("nav") else ""}>{label}</a>' for key, href, label in NAV)
+        here = meta.get('nav')
+        prefix = '' if page.stem == 'index' else './'
+        sections = ''.join(f'<a href="{prefix}#{key}">{label}</a>' for key, label in SECTIONS)
+        pages = ''.join(f'<a href="{href}"{" aria-current=\"page\"" if key == here else ""}>{label}</a>' for key, href, label in PAGES)
         url = SITE_URL + ('' if page.stem == 'index' else page.name)
-        html = LAYOUT.format(css_v=css_v, js_v=js_v, site=SITE_URL, url=url, title=meta['title'], description=meta['description'], nav=meta.get('nav', page.stem), links=links, body=body, email=EMAIL)
+        html = LAYOUT.format(css_v=css_v, js_v=js_v, site=SITE_URL, url=url, title=meta['title'], description=meta['description'], nav=meta.get('nav', page.stem), sections=sections, pages=pages, download=icon('download', 16), body=body, email=EMAIL)
         (OUT / page.name).write_text(html)
         print('built', page.name)
 
