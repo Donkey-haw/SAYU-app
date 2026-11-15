@@ -6,6 +6,7 @@ Each page starts with a JSON header in an HTML comment:
 The layout adds <head>, the navigation and the footer. `{{icon:name}}` inserts
 an inline SVG icon (one stroke family, drawn for this site). Deploy site/public.
 """
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -63,8 +64,8 @@ LAYOUT = '''<!doctype html>
 <link rel="icon" href="favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="assets/site.css">
-<script src="assets/site.js" defer></script>
+<link rel="stylesheet" href="assets/site.css?v={css_v}">
+<script src="assets/site.js?v={js_v}" defer></script>
 </head>
 <body class="page-{nav}">
 <a class="skip" href="#main">본문으로 건너뛰기</a>
@@ -98,8 +99,15 @@ LAYOUT = '''<!doctype html>
 '''
 
 
+def version(path):
+    # Content hash in the URL so browsers fetch a changed file at once
+    # (GitHub Pages lets them cache assets for 10 minutes).
+    return hashlib.sha256((OUT / path).read_bytes()).hexdigest()[:10]
+
+
 def build():
     OUT.mkdir(parents=True, exist_ok=True)
+    css_v, js_v = version('assets/site.css'), version('assets/site.js')
     for page in sorted(SRC.glob('*.html')):
         text = page.read_text()
         header = re.match(r'<!--(\{.*?\})-->\n', text, re.S)
@@ -109,7 +117,7 @@ def build():
         body = body.replace('{{email}}', EMAIL)
         links = ''.join(f'<a href="{href}"{" aria-current=\"page\"" if key == meta.get("nav") else ""}>{label}</a>' for key, href, label in NAV)
         url = SITE_URL + ('' if page.stem == 'index' else page.name)
-        html = LAYOUT.format(site=SITE_URL, url=url, title=meta['title'], description=meta['description'], nav=meta.get('nav', page.stem), links=links, body=body, email=EMAIL)
+        html = LAYOUT.format(css_v=css_v, js_v=js_v, site=SITE_URL, url=url, title=meta['title'], description=meta['description'], nav=meta.get('nav', page.stem), links=links, body=body, email=EMAIL)
         (OUT / page.name).write_text(html)
         print('built', page.name)
 
