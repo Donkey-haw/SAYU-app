@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>SAYU 업데이트</title>
+    <link>https://donkey-haw.github.io/SAYU-app/</link>
+    <language>ko</language>
+    <item>
+      <title>SAYU 0.11.3</title>
+      <pubDate>Sun, 15 Nov 2026 12:01:41 +0000</pubDate>
+      <sparkle:version>1103</sparkle:version>
+      <sparkle:shortVersionString>0.11.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:releaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.11.3/SAYU-0.11.3.dmg" length="378263700" type="application/octet-stream" sparkle:edSignature="NPEqLQA1bGHIsIVRU6/idQT07E4JZ7BtcUAszqTCzUL8JCBTUJ4uuPPXTNdSrsvkPHEtMPgJoYhW4uS7L2IZBQ=="/>
+    </item>
+  </channel>
+</rss>
