@@ -5,6 +5,21 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.11.4</title>
+      <pubDate>Sun, 15 Nov 2026 12:08:20 +0000</pubDate>
+      <sparkle:version>1104</sparkle:version>
+      <sparkle:shortVersionString>0.11.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-15">2026년 11월 15일</time> · 조용한 업데이트 알림</p>
+      <h3>바뀐 것</h3>
+      <ul>
+        <li>새 버전을 찾아도 작업 중인 화면 위로 창이 뜨지 않습니다. 사이드바 아래에 <strong>새 버전</strong> 단추가 생기고, 원할 때 눌러 바뀐 점을 보고 설치합니다.</li>
+        <li>업데이트 창에 그 버전에서 바뀐 점만 짧게 보입니다. 전체 기록은 창의 버전 기록 단추로 엽니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.11.4/SAYU-0.11.4.dmg" length="378338920" type="application/octet-stream" sparkle:edSignature="fgHcHfH4rLb/4KPbNokhMcRmol+FuK6oy0t+6vtRY4muSLg8IjR9u8ns9g5kHqKcV14TFuV8LWwliqV42uuwCA=="/>
+    </item>
+    <item>
       <title>SAYU 0.11.3</title>
       <pubDate>Sun, 15 Nov 2026 12:01:41 +0000</pubDate>
       <sparkle:version>1103</sparkle:version>
