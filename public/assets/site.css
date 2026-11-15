@@ -278,11 +278,12 @@ a:hover { text-decoration: underline; }
 .steps p { margin: 0 0 10px; }
 .shot { background: var(--gray); border-radius: 18px; padding: 26px; display: grid; place-items: center; min-height: 240px; }
 .alert { width: 280px; background: #f6f6f8; border-radius: 14px; box-shadow: 0 0 0 .5px rgba(0,0,0,.2), 0 18px 40px -12px rgba(0,0,0,.35); padding: 18px 16px 14px; text-align: center; font-size: 12.5px; color: var(--ink); line-height: 1.45; }
-.alert img { margin: 0 auto 10px; }
+.alert .gk { display: grid; place-items: center; width: 48px; height: 48px; margin: 0 auto 10px; border-radius: 12px; background: #e5e5ea; color: #6e6e73; }
 .alert b { display: block; font-size: 13px; margin-bottom: 6px; }
 .alert .btns { display: grid; gap: 6px; margin-top: 14px; }
-.alert .btns span { border-radius: 7px; padding: 5px; background: #e5e5ea; font-weight: 500; }
-.alert .btns span.pri { background: #0a84ff; color: #fff; }
+.alert .btns span { border-radius: 999px; padding: 6px; background: #e5e5ea; font-weight: 500; }
+.alert .btns span.trash { background: #6cc070; color: #fff; }
+.alert .btns span.press { outline: 2px solid var(--teal); outline-offset: 2px; }
 .finder { width: 100%; max-width: 360px; background: #fff; border-radius: 10px; box-shadow: 0 0 0 .5px rgba(0,0,0,.2), 0 18px 40px -16px rgba(0,0,0,.3); overflow: hidden; font-size: 12px; }
 .finder .bar { height: 30px; background: #f3f3f5; border-bottom: 1px solid var(--hair); display: flex; align-items: center; padding: 0 10px; gap: 6px; }
 .finder .bar i { width: 9px; height: 9px; border-radius: 50%; background: #d1d1d6; }
