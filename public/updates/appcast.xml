@@ -5,6 +5,22 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.7</title>
+      <pubDate>Tue, 17 Nov 2026 11:04:04 +0000</pubDate>
+      <sparkle:version>1207</sparkle:version>
+      <sparkle:shortVersionString>0.12.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-17">2026년 11월 17일</time> · 같은 단원의 차시를 이어 기억하기</p>
+      <h3>바뀐 것</h3>
+      <ul>
+        <li>같은 단원의 차시들은 AI가 앞 차시의 대화와 보드를 이어 기억합니다. 다음 차시에서 지침과 자료를 처음부터 다시 읽지 않아 시간과 사용량이 줄어듭니다. 대화 목록은 차시별 그대로입니다.</li>
+        <li>새 수업을 만들 때 과목·학년·학기·단원에 맞춰 앱이 원문 이름을 정해, 왼쪽 목록에서 같은 단원끼리 정확하게 묶입니다. 학기나 단원이 분명하지 않으면 AI가 먼저 물어봅니다.</li>
+        <li>한 시간 넘게 쉬었다가 다시 이어갈 때는 정리된 내용으로 새로 시작해 사용량을 아낍니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.7/SAYU-0.12.7.dmg" length="378477455" type="application/octet-stream" sparkle:edSignature="dJtDmdThhD2Yd/pj5UU6GsSx17a6C2Gm4oO/kg/SRyCrCY5e3k29TqbQRZa5QMpDu4dHZjZG8GTMrv3PuAy/AA=="/>
+    </item>
+    <item>
       <title>SAYU 0.12.6</title>
       <pubDate>Tue, 17 Nov 2026 10:37:38 +0000</pubDate>
       <sparkle:version>1206</sparkle:version>
