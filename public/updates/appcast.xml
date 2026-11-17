@@ -5,6 +5,20 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.5</title>
+      <pubDate>Tue, 17 Nov 2026 10:07:16 +0000</pubDate>
+      <sparkle:version>1205</sparkle:version>
+      <sparkle:shortVersionString>0.12.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-17">2026년 11월 17일</time> · 멈춘 작업 이어 가기</p>
+      <h3>바뀐 것</h3>
+      <ul>
+        <li>AI 응답을 중간에 멈춰도 다음 요청에서 하던 작업을 이어 갑니다. 처음부터 다시 읽지 않아 시간과 사용량이 줄어듭니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.5/SAYU-0.12.5.dmg" length="378496941" type="application/octet-stream" sparkle:edSignature="isK2v6/FzE02ZXJ5/o2OkX6LH7gRg62LaTJH6vx07xj2P4hRl1xyn/Wubra1Ul5S3ld/ed7IVvAsQA8ynQcgCw=="/>
+    </item>
+    <item>
       <title>SAYU 0.12.4</title>
       <pubDate>Tue, 17 Nov 2026 07:03:52 +0000</pubDate>
       <sparkle:version>1204</sparkle:version>
