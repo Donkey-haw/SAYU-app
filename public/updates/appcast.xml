@@ -5,6 +5,21 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.4</title>
+      <pubDate>Tue, 17 Nov 2026 07:03:52 +0000</pubDate>
+      <sparkle:version>1204</sparkle:version>
+      <sparkle:shortVersionString>0.12.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-17">2026년 11월 17일</time> · 보드에 새 시트를 한 번에 넣기</p>
+      <h3>바뀐 것</h3>
+      <ul>
+        <li>같은 단원 보드에 이번 차시 시트를 이어 만들 때, AI가 시트 하나를 먼저 다 설계한 뒤 도형·글·그림·이름표를 한 번에 넣습니다. 지금까지는 기둥·섹션마다 나눠 넣어서, 넣을 때마다 시간과 사용량이 더 들었습니다.</li>
+        <li>표·영상·링크처럼 따로 넣어야 하는 것은 그대로 따로 넣습니다. 넣은 뒤 시트마다 검사하고 고치는 과정은 바뀌지 않습니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.4/SAYU-0.12.4.dmg" length="378496429" type="application/octet-stream" sparkle:edSignature="FHNPM4IWYAlC7zhH5i61q7XA9AVh1KnoJXqoEh+pivR+HJhIeE7Do9ociYeW1TtfaIxJ6TCHoKXycwMSSOxUAw=="/>
+    </item>
+    <item>
       <title>SAYU 0.12.3</title>
       <pubDate>Mon, 16 Nov 2026 23:39:01 +0000</pubDate>
       <sparkle:version>1203</sparkle:version>
