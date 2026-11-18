@@ -5,6 +5,25 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.11</title>
+      <pubDate>Wed, 18 Nov 2026 10:09:04 +0000</pubDate>
+      <sparkle:version>1211</sparkle:version>
+      <sparkle:shortVersionString>0.12.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-18">2026년 11월 18일</time> · 다음 차시로 넘어갈 때 사용량 줄이기</p>
+      <h3>바뀐 것</h3>
+      <ul>
+        <li>다음 차시를 시작할 때 앞 차시 대화가 길었으면, 필요한 내용(앞 차시 대화, 보드를 만든 방식, 정한 내용)만 이어받고 나머지는 정리한 뒤 시작합니다. 차시가 쌓여도 사용량이 덜 늘어납니다.</li>
+        <li>보드에 시트를 만든 방식을 보드별로 기억해 두었다가, 다음 차시 시트를 같은 모양으로 더 빨리 만듭니다.</li>
+      </ul>
+      <h3>고친 것</h3>
+      <ul>
+        <li>보드 폴더를 쓸 때, 앱을 다시 열어 연결된 보드를 열면 보드 폴더에 같은 보드 파일이 하나 더 생기던 문제를 고쳤습니다. 이제 원래 파일이 최신 보드로 바뀝니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.11/SAYU-0.12.11.dmg" length="378517228" type="application/octet-stream" sparkle:edSignature="/Jgc3wjtFtWt8nozNsZj5PjUDNEJTzL2DZ8XlwRmxRX3jkstJleVewMItvEoicXEobIkyaWZBiiq2T6L4jBZAA=="/>
+    </item>
+    <item>
       <title>SAYU 0.12.10</title>
       <pubDate>Wed, 18 Nov 2026 08:29:53 +0000</pubDate>
       <sparkle:version>1210</sparkle:version>
