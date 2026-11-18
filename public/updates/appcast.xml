@@ -5,6 +5,23 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.14</title>
+      <pubDate>Wed, 18 Nov 2026 13:19:47 +0000</pubDate>
+      <sparkle:version>1214</sparkle:version>
+      <sparkle:shortVersionString>0.12.14</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-18">2026년 11월 18일</time> · 보드 점검을 더 빠르게, 표지 단추 자동</p>
+      <h3>바뀐 것</h3>
+      <ul>
+        <li>보드에 시트를 넣은 뒤 그 시트를 한 번에 점검합니다. 덮개 아래 내용도 함께 확인해, 보드 만들기 사용량과 시간이 줄어듭니다.</li>
+        <li>새 차시 시트를 넣으면 표지에 그 차시 단추를 다른 단추와 같은 모양으로 넣고 연결합니다.</li>
+        <li>새 수업을 시작할 때 앞 차시 내용을 이어받는 중이라고 알려 줍니다.</li>
+        <li>AI가 확인용으로 만든 파일은 앱이 하루 뒤 휴지통으로 정리합니다. 따로 지우실 필요가 없습니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.14/SAYU-0.12.14.dmg" length="378713802" type="application/octet-stream" sparkle:edSignature="hTd6GJ7WZoDj4wQRccVF5PrAPztgJZVc9Sa5odM+QUOlY4JmT//UurdWynWAwWum+eNBDelp0m5XodWi4uAeAg=="/>
+    </item>
+    <item>
       <title>SAYU 0.12.13</title>
       <pubDate>Wed, 18 Nov 2026 12:38:48 +0000</pubDate>
       <sparkle:version>1213</sparkle:version>
