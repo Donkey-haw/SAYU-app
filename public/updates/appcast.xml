@@ -5,6 +5,26 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.12</title>
+      <pubDate>Wed, 18 Nov 2026 11:45:58 +0000</pubDate>
+      <sparkle:version>1212</sparkle:version>
+      <sparkle:shortVersionString>0.12.12</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-18">2026년 11월 18일</time> · AI 계정 바꾸기, 보드 만들기 사용량 줄이기</p>
+      <h3>새 기능</h3>
+      <ul>
+        <li>설정 › AI 연결에서 SAYU만 다른 Claude·ChatGPT 계정으로 바꿀 수 있습니다. 터미널의 Claude Code·Codex 로그인은 그대로 유지됩니다. 언제든 이 Mac의 로그인으로 되돌릴 수 있습니다.</li>
+      </ul>
+      <h3>바뀐 것</h3>
+      <ul>
+        <li>교과서 여러 쪽을 한 번에 확인해, 단원 전체를 살펴볼 때 사용량이 줄었습니다.</li>
+        <li>보드에 그림을 넣을 때 원래 비율대로 크기를 맞춰, 보드를 다시 만드는 일이 줄었습니다.</li>
+        <li>보드를 꾸미려고 교과서 캐릭터·삽화를 오려 내지 않습니다. 교과서는 필요한 쪽이나 영역을 그대로 넣습니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.12/SAYU-0.12.12.dmg" length="378649638" type="application/octet-stream" sparkle:edSignature="fekQ+JyxtNgkztvgpqV2fdpftv7A9VCSbRXpI9OYwE3FlD7bamexFGuRZk2e8TrSium/DrzjlDpt6TdUrelgBA=="/>
+    </item>
+    <item>
       <title>SAYU 0.12.11</title>
       <pubDate>Wed, 18 Nov 2026 10:09:04 +0000</pubDate>
       <sparkle:version>1211</sparkle:version>
