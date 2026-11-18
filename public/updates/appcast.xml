@@ -5,6 +5,22 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.15</title>
+      <pubDate>Wed, 18 Nov 2026 23:56:47 +0000</pubDate>
+      <sparkle:version>1215</sparkle:version>
+      <sparkle:shortVersionString>0.12.15</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-19">2026년 11월 19일</time> · 보드 폴더가 최신 차시를 따라가도록</p>
+      <h3>바뀐 것</h3>
+      <ul>
+        <li>Numbers에서 보드를 열기만 했을 때도 고친 것으로 여겨, 새 차시가 보드 폴더 파일 옆에 따로 저장되던 문제를 고쳤습니다. 이제 보드 폴더 파일이 최신 차시까지 담깁니다.</li>
+        <li>새 차시를 만들 때 AI가 앞 차시까지 모두 든 보드에서 이어 작업합니다.</li>
+        <li>인터넷에서 통계 자료를 받을 때 한 번에 받습니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.15/SAYU-0.12.15.dmg" length="378749887" type="application/octet-stream" sparkle:edSignature="iowoDbz+BLM6XuehwINGCbkqwGv511FycOtnFSgXvMKH3A732VfMLk+/fddWgp6WXbm+xWr/dVB93FqzU2o8Aw=="/>
+    </item>
+    <item>
       <title>SAYU 0.12.14</title>
       <pubDate>Wed, 18 Nov 2026 13:19:47 +0000</pubDate>
       <sparkle:version>1214</sparkle:version>
