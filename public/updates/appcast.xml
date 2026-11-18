@@ -5,6 +5,25 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.13</title>
+      <pubDate>Wed, 18 Nov 2026 12:38:48 +0000</pubDate>
+      <sparkle:version>1213</sparkle:version>
+      <sparkle:shortVersionString>0.12.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-18">2026년 11월 18일</time> · 보드 폴더 파일 보호</p>
+      <h3>고친 것</h3>
+      <ul>
+        <li>AI가 확인용으로 만든 보드가 수업 보드로 등록되어, 보드 폴더의 보드 파일이 시트 한 장짜리로 바뀌던 문제를 고쳤습니다. 기존 보드를 고칠 때 새로 만든 파일은 결과로 쓰지 않습니다.</li>
+        <li>새 버전에 원래 시트 대부분이 없으면 보드 폴더의 파일은 그대로 두고 옆에 따로 저장합니다.</li>
+      </ul>
+      <h3>바뀐 것</h3>
+      <ul>
+        <li>새 차시를 시작할 때 앞 차시 보드를 만든 방식과 구조를 바로 이어받아, 다음 시트를 더 적은 사용량으로 만듭니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.13/SAYU-0.12.13.dmg" length="378672399" type="application/octet-stream" sparkle:edSignature="U/g8ClzIRuWEDpB+jIOlkNQrbstsmM7xZb2h0FJ/xd+mtbdx0/IN/L/vi2N8+KSmv7JUctAuyCXY8Qh6RP6WDA=="/>
+    </item>
+    <item>
       <title>SAYU 0.12.12</title>
       <pubDate>Wed, 18 Nov 2026 11:45:58 +0000</pubDate>
       <sparkle:version>1212</sparkle:version>
