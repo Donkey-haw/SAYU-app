@@ -5,6 +5,20 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.10</title>
+      <pubDate>Wed, 18 Nov 2026 08:29:53 +0000</pubDate>
+      <sparkle:version>1210</sparkle:version>
+      <sparkle:shortVersionString>0.12.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-18">2026년 11월 18일</time> · 큰 단원 보드 오류 고침</p>
+      <h3>고친 것</h3>
+      <ul>
+        <li>차시 시트가 많이 쌓인 단원 보드에 새 시트를 넣으면, 작업을 마치고도 오류로 끝나고 보드가 목록에 나타나지 않던 문제를 고쳤습니다. 업데이트 후 앱을 다시 열면 그때 만든 보드도 자동으로 연결됩니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.10/SAYU-0.12.10.dmg" length="378538827" type="application/octet-stream" sparkle:edSignature="ZOtGOijYfOUnUxbmYhWzGgWD/95k4s/gAbtPlQ4iu6zM0vzW1WQAz7EeqlT9rhMNHckkG1XnDIqW0MeTc97uBQ=="/>
+    </item>
+    <item>
       <title>SAYU 0.12.9</title>
       <pubDate>Wed, 18 Nov 2026 02:29:38 +0000</pubDate>
       <sparkle:version>1209</sparkle:version>
