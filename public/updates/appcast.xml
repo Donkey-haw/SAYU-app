@@ -5,6 +5,23 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.17</title>
+      <pubDate>Thu, 19 Nov 2026 11:01:48 +0000</pubDate>
+      <sparkle:version>1217</sparkle:version>
+      <sparkle:shortVersionString>0.12.17</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-19">2026년 11월 19일</time> · 보드 만들기를 더 적은 단계로</p>
+      <h3>바뀐 것</h3>
+      <ul>
+        <li>새 보드를 만들 때 영상과 차시 이동 단추 연결까지 한 번에 넣습니다.</li>
+        <li>보드를 만들자마자 시트마다 점검 그림을 함께 확인해, 같은 점검을 되풀이하지 않습니다.</li>
+        <li>위키미디어 사진을 받을 때 저작권 정보도 함께 확인합니다.</li>
+        <li>AI가 따로 기다릴 필요 없는 일을 한꺼번에 처리해 사용량이 줄어듭니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.17/SAYU-0.12.17.dmg" length="378784138" type="application/octet-stream" sparkle:edSignature="/OL2bXtlzvRUhE9zLo7ZbI80kAfhODXa/6c1CLmiMzYKQ7M1i4GOfjDnLjPqqxPldm0EO2BPzpf3FecJEztkCw=="/>
+    </item>
+    <item>
       <title>SAYU 0.12.16</title>
       <pubDate>Thu, 19 Nov 2026 10:35:40 +0000</pubDate>
       <sparkle:version>1216</sparkle:version>
