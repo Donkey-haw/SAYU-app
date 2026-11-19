@@ -5,6 +5,21 @@
     <link>https://donkey-haw.github.io/SAYU-app/</link>
     <language>ko</language>
     <item>
+      <title>SAYU 0.12.18</title>
+      <pubDate>Thu, 19 Nov 2026 11:31:10 +0000</pubDate>
+      <sparkle:version>1218</sparkle:version>
+      <sparkle:shortVersionString>0.12.18</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.6 -apple-system,"Apple SD Gothic Neo",sans-serif;margin:4px 2px}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:0 0 8px}li{margin:2px 0}p{margin:0 0 8px}.date{color:#888;font-size:12px}a{color:#0a84ff}</style><p class="date"><time datetime="2026-11-19">2026년 11월 19일</time> · 차시 시트를 붙이는 단계 줄이기</p>
+      <h3>바뀐 것</h3>
+      <ul>
+        <li>차시 시트를 붙일 때 표지 단추와 첫 점검까지 한 번에 합니다. 덮개가 있으면 덮개 아래도 함께 확인합니다.</li>
+        <li>보드를 고쳐 다시 만든 뒤에도 다음 차시에서 보드 코드를 다시 찾아 읽지 않습니다.</li>
+      </ul>]]></description>
+      <sparkle:fullReleaseNotesLink>https://donkey-haw.github.io/SAYU-app/changelog.html</sparkle:fullReleaseNotesLink>
+      <enclosure url="https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.18/SAYU-0.12.18.dmg" length="378782315" type="application/octet-stream" sparkle:edSignature="Rhj7CVCt+NuTnv4sw3SZZxNPToTn/5+4+VTHq4V8pTBxPzUIAmLkvoCGsk79WMzmSc5uwqjOZnnGifmjNjXjCw=="/>
+    </item>
+    <item>
       <title>SAYU 0.12.17</title>
       <pubDate>Thu, 19 Nov 2026 11:01:48 +0000</pubDate>
       <sparkle:version>1217</sparkle:version>

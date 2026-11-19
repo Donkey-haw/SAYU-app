@@ -1,8 +1,8 @@
 // SAYU site script. No tracking, no cookies.
 const SAYU = {
   // Set when the trial DMG is published on GitHub Releases.
-  downloadURL: 'https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.17/SAYU-0.12.17.dmg',
-  version: '0.12.17 체험판',
+  downloadURL: 'https://github.com/Donkey-haw/SAYU-app/releases/download/v0.12.18/SAYU-0.12.18.dmg',
+  version: '0.12.18 체험판',
   size: '378MB',
 };
 
